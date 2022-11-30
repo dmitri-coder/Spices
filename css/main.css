@@ -108,16 +108,45 @@ h5 {font-size: 1.5rem;}
 
 small, .text_small {font-size: 0.667rem;}
 
+/*end global tpyo*/
+
+/*global styles*/
+.wrapper {
+  width: 90%;
+  margin:0 auto;
+  max-width: 1400px;
+}
+
+/*end global styles*/
+header, nav {
+  display: flex;
+  justify-content: space-between;
+}
 .logo img {
   width: 8em;
 }
 nav img {
   width: 2em;
+  margin-left: 1em;
 }
-
+/*
 .hero {
   background-image: url("/assets/spicespilt.png");
   background-size: cover;
   height: 90vh;
   width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+*/
+.hero {
+  position: relative;
+}
+.hero-cta {
+  max-width: 600px;
+}
+.hero-spice {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
