@@ -81,7 +81,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: 1.75;
-  color: #ff0000;
+  color: #000000;
 }
 
 p {margin-bottom: 1rem;}
@@ -107,3 +107,17 @@ h4 {font-size: 2.25rem;}
 h5 {font-size: 1.5rem;}
 
 small, .text_small {font-size: 0.667rem;}
+
+.logo img {
+  width: 8em;
+}
+nav img {
+  width: 2em;
+}
+
+.hero {
+  background-image: url("/assets/spicespilt.png");
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
